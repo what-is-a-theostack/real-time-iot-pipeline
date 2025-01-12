@@ -1,4 +1,4 @@
-from base_device import BaseDevice
+from core.device.base_device import BaseDevice
 import time
 
 class PowerDevice(BaseDevice):

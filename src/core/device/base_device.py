@@ -26,7 +26,7 @@ class BaseDevice:
         self.metadata = {}  # Arbitrary metadata for extensions
 
         # Event log
-        self.log = []  # Event log
+        self.log = [] 
 
     def activate(self):
         """Activate the device."""

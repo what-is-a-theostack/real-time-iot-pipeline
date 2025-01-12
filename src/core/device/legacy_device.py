@@ -1,4 +1,4 @@
-from base_device import BaseDevice
+from core.device.base_device import BaseDevice
 
 class LegacyDevice(BaseDevice):
     def __init__(self, manufacturer, make, model, serial_number, name, voltage_range=10, description=None):

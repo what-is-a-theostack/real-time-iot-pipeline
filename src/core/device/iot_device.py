@@ -1,4 +1,4 @@
-from base_device import BaseDevice
+from core.device.base_device import BaseDevice
 
 class IoTDevice(BaseDevice):
     def __init__(self, manufacturer, make, model, serial_number, name, ip_address, mac_address, description=None):
