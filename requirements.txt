@@ -1,0 +1,5 @@
+paho-mqtt
+kafka-python
+pyspark
+influxdb-client
+psycopg2
